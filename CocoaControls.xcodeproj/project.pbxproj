@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA86E7121A9C54B40051156A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E7111A9C54B40051156A /* main.m */; };
+		FA86E7151A9C54B40051156A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E7141A9C54B40051156A /* AppDelegate.m */; };
+		FA86E7181A9C54B40051156A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E7171A9C54B40051156A /* ViewController.m */; };
+		FA86E71B1A9C54B40051156A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86E7191A9C54B40051156A /* Main.storyboard */; };
+		FA86E71D1A9C54B40051156A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA86E71C1A9C54B40051156A /* Images.xcassets */; };
+		FA86E7201A9C54B40051156A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA86E71E1A9C54B40051156A /* LaunchScreen.xib */; };
+		FA86E72C1A9C54B40051156A /* CocoaControlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E72B1A9C54B40051156A /* CocoaControlsTests.m */; };
+		FA86E7371A9C62DB0051156A /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E7361A9C62DB0051156A /* TextFieldViewController.m */; };
+		FA86E7391A9C7B8F0051156A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA86E7381A9C7B8F0051156A /* Localizable.strings */; };
+		FA86E73C1A9C7E620051156A /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E73B1A9C7E620051156A /* UIColor+CustomColor.m */; };
+		FA86E73F1A9CA77E0051156A /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86E73E1A9CA77E0051156A /* ButtonViewController.m */; };
+		FAC42A211A9DB2D200941479 /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC42A201A9DB2D200941479 /* AlertTableViewController.m */; };
+		FAC42A241A9DDFD000941479 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC42A231A9DDFD000941479 /* DatePickerViewController.m */; };
+		FAC42A271A9DE6F700941479 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC42A261A9DE6F700941479 /* ImageViewController.m */; };
+		FAC42A2A1A9DEB6B00941479 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC42A291A9DEB6B00941479 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA86E7261A9C54B40051156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA86E7041A9C54B40051156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA86E70B1A9C54B40051156A;
+			remoteInfo = CocoaControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA86E70C1A9C54B40051156A /* CocoaControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86E7101A9C54B40051156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA86E7111A9C54B40051156A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA86E7131A9C54B40051156A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA86E7141A9C54B40051156A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA86E7161A9C54B40051156A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA86E7171A9C54B40051156A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA86E71A1A9C54B40051156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA86E71C1A9C54B40051156A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA86E71F1A9C54B40051156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA86E7251A9C54B40051156A /* CocoaControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86E72A1A9C54B40051156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA86E72B1A9C54B40051156A /* CocoaControlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaControlsTests.m; sourceTree = "<group>"; };
+		FA86E7351A9C62DB0051156A /* TextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldViewController.h; path = ../TextFieldViewController.h; sourceTree = "<group>"; };
+		FA86E7361A9C62DB0051156A /* TextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFieldViewController.m; path = ../TextFieldViewController.m; sourceTree = "<group>"; };
+		FA86E7381A9C7B8F0051156A /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FA86E73A1A9C7E620051156A /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+CustomColor.h"; path = "../UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		FA86E73B1A9C7E620051156A /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CustomColor.m"; path = "../UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		FA86E73D1A9CA77E0051156A /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		FA86E73E1A9CA77E0051156A /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		FAC42A1F1A9DB2D200941479 /* AlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
+		FAC42A201A9DB2D200941479 /* AlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
+		FAC42A221A9DDFD000941479 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		FAC42A231A9DDFD000941479 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		FAC42A251A9DE6F700941479 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FAC42A261A9DE6F700941479 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		FAC42A281A9DEB6B00941479 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FAC42A291A9DEB6B00941479 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA86E7091A9C54B40051156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86E7221A9C54B40051156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA86E7031A9C54B40051156A = {
+			isa = PBXGroup;
+			children = (
+				FA86E7381A9C7B8F0051156A /* Localizable.strings */,
+				FA86E70E1A9C54B40051156A /* CocoaControls */,
+				FA86E7281A9C54B40051156A /* CocoaControlsTests */,
+				FA86E70D1A9C54B40051156A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA86E70D1A9C54B40051156A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA86E70C1A9C54B40051156A /* CocoaControls.app */,
+				FA86E7251A9C54B40051156A /* CocoaControlsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA86E70E1A9C54B40051156A /* CocoaControls */ = {
+			isa = PBXGroup;
+			children = (
+				FA86E7131A9C54B40051156A /* AppDelegate.h */,
+				FA86E7141A9C54B40051156A /* AppDelegate.m */,
+				FA86E7161A9C54B40051156A /* ViewController.h */,
+				FA86E7171A9C54B40051156A /* ViewController.m */,
+				FA86E7351A9C62DB0051156A /* TextFieldViewController.h */,
+				FA86E7361A9C62DB0051156A /* TextFieldViewController.m */,
+				FA86E73D1A9CA77E0051156A /* ButtonViewController.h */,
+				FA86E73E1A9CA77E0051156A /* ButtonViewController.m */,
+				FAC42A1F1A9DB2D200941479 /* AlertTableViewController.h */,
+				FAC42A201A9DB2D200941479 /* AlertTableViewController.m */,
+				FAC42A221A9DDFD000941479 /* DatePickerViewController.h */,
+				FAC42A231A9DDFD000941479 /* DatePickerViewController.m */,
+				FAC42A251A9DE6F700941479 /* ImageViewController.h */,
+				FAC42A261A9DE6F700941479 /* ImageViewController.m */,
+				FAC42A281A9DEB6B00941479 /* WebViewController.h */,
+				FAC42A291A9DEB6B00941479 /* WebViewController.m */,
+				FA86E7191A9C54B40051156A /* Main.storyboard */,
+				FA86E73A1A9C7E620051156A /* UIColor+CustomColor.h */,
+				FA86E73B1A9C7E620051156A /* UIColor+CustomColor.m */,
+				FA86E71C1A9C54B40051156A /* Images.xcassets */,
+				FA86E71E1A9C54B40051156A /* LaunchScreen.xib */,
+				FA86E70F1A9C54B40051156A /* Supporting Files */,
+			);
+			path = CocoaControls;
+			sourceTree = "<group>";
+		};
+		FA86E70F1A9C54B40051156A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA86E7101A9C54B40051156A /* Info.plist */,
+				FA86E7111A9C54B40051156A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA86E7281A9C54B40051156A /* CocoaControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA86E72B1A9C54B40051156A /* CocoaControlsTests.m */,
+				FA86E7291A9C54B40051156A /* Supporting Files */,
+			);
+			path = CocoaControlsTests;
+			sourceTree = "<group>";
+		};
+		FA86E7291A9C54B40051156A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA86E72A1A9C54B40051156A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA86E70B1A9C54B40051156A /* CocoaControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86E72F1A9C54B40051156A /* Build configuration list for PBXNativeTarget "CocoaControls" */;
+			buildPhases = (
+				FA86E7081A9C54B40051156A /* Sources */,
+				FA86E7091A9C54B40051156A /* Frameworks */,
+				FA86E70A1A9C54B40051156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaControls;
+			productName = CocoaControls;
+			productReference = FA86E70C1A9C54B40051156A /* CocoaControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA86E7241A9C54B40051156A /* CocoaControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86E7321A9C54B40051156A /* Build configuration list for PBXNativeTarget "CocoaControlsTests" */;
+			buildPhases = (
+				FA86E7211A9C54B40051156A /* Sources */,
+				FA86E7221A9C54B40051156A /* Frameworks */,
+				FA86E7231A9C54B40051156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA86E7271A9C54B40051156A /* PBXTargetDependency */,
+			);
+			name = CocoaControlsTests;
+			productName = CocoaControlsTests;
+			productReference = FA86E7251A9C54B40051156A /* CocoaControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA86E7041A9C54B40051156A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "MACBOOK-MUM";
+				TargetAttributes = {
+					FA86E70B1A9C54B40051156A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FA86E7241A9C54B40051156A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FA86E70B1A9C54B40051156A;
+					};
+				};
+			};
+			buildConfigurationList = FA86E7071A9C54B40051156A /* Build configuration list for PBXProject "CocoaControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA86E7031A9C54B40051156A;
+			productRefGroup = FA86E70D1A9C54B40051156A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA86E70B1A9C54B40051156A /* CocoaControls */,
+				FA86E7241A9C54B40051156A /* CocoaControlsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA86E70A1A9C54B40051156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86E71B1A9C54B40051156A /* Main.storyboard in Resources */,
+				FA86E7391A9C7B8F0051156A /* Localizable.strings in Resources */,
+				FA86E7201A9C54B40051156A /* LaunchScreen.xib in Resources */,
+				FA86E71D1A9C54B40051156A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86E7231A9C54B40051156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA86E7081A9C54B40051156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC42A241A9DDFD000941479 /* DatePickerViewController.m in Sources */,
+				FAC42A2A1A9DEB6B00941479 /* WebViewController.m in Sources */,
+				FA86E73C1A9C7E620051156A /* UIColor+CustomColor.m in Sources */,
+				FA86E7371A9C62DB0051156A /* TextFieldViewController.m in Sources */,
+				FAC42A211A9DB2D200941479 /* AlertTableViewController.m in Sources */,
+				FA86E7181A9C54B40051156A /* ViewController.m in Sources */,
+				FA86E7151A9C54B40051156A /* AppDelegate.m in Sources */,
+				FAC42A271A9DE6F700941479 /* ImageViewController.m in Sources */,
+				FA86E73F1A9CA77E0051156A /* ButtonViewController.m in Sources */,
+				FA86E7121A9C54B40051156A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86E7211A9C54B40051156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86E72C1A9C54B40051156A /* CocoaControlsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA86E7271A9C54B40051156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA86E70B1A9C54B40051156A /* CocoaControls */;
+			targetProxy = FA86E7261A9C54B40051156A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA86E7191A9C54B40051156A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA86E71A1A9C54B40051156A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA86E71E1A9C54B40051156A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA86E71F1A9C54B40051156A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA86E72D1A9C54B40051156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA86E72E1A9C54B40051156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA86E7301A9C54B40051156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocoaControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA86E7311A9C54B40051156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocoaControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA86E7331A9C54B40051156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaControls.app/CocoaControls";
+			};
+			name = Debug;
+		};
+		FA86E7341A9C54B40051156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaControls.app/CocoaControls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA86E7071A9C54B40051156A /* Build configuration list for PBXProject "CocoaControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86E72D1A9C54B40051156A /* Debug */,
+				FA86E72E1A9C54B40051156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86E72F1A9C54B40051156A /* Build configuration list for PBXNativeTarget "CocoaControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86E7301A9C54B40051156A /* Debug */,
+				FA86E7311A9C54B40051156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86E7321A9C54B40051156A /* Build configuration list for PBXNativeTarget "CocoaControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86E7331A9C54B40051156A /* Debug */,
+				FA86E7341A9C54B40051156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA86E7041A9C54B40051156A /* Project object */;
+}

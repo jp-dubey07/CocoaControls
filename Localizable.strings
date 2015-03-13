@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  CocoaControls
+
+  Created by MACBOOK-MUM on 24/02/15.
+  Copyright (c) 2015 MACBOOK-MUM. All rights reserved.
+*/
+
+"Default_textfield" = "Default textfield";
+
+"Tint_Textfield" = "Tinted textfield";
+
+"Secure_Textfield" = "Secure textfield";
+
+"Specific_KB" = "Specific Keyboard textfield";
+
+"custom_textfield" = "Custom textfield";
+
+"text_button" = "Text button";
+
+"X_Button" = "X Button";
+
+"Button" = "Button";
+
+"Short_title" = "A Short Title Is Best";
+
+"Message" = "A message should be a short, complete sentence.";
+
+"OK" = "OK";
+
+"Cancel" = "Cancel";
+
+"ChoiceOne" = "Choice One";
+
+"ChoiceTwo" = "Choice Two";
+
+"DestructiveChoice" = "Destructive Choice";
+
+"SafeChoice" = "Safe Choice";
+
+"Animated" = "Animated";
+
+"An error occured:" = "An error occured:";
